@@ -41,7 +41,3 @@ echo "Generating henry ins and hints placeholders/samples"
 echo "[{"all":{"params":"values"}}]" > in_henry/in.henry.wip
 echo "{"tasks":["WIP"]}" > in_henry/hints.henry.wip
 
-echo "Generating cucumber directory structure"
-mkdir -p features/step_definitions
-mkdir -p features/support
-
